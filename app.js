@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 const supabase = createClient(
     'https://ssiwjsmpejkbzkybdwrz.supabase.co',
-    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNzaXdqc21wZWprYnpreWJkd3J6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4OTkyODYsImV4cCI6MjA3ODQ3NTI4Nn0.VTidNxv_f1Nwztn3fOblewoJOlYn6ddCbhkpg0aRbbc
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNzaXdqc21wZWprYnpreWJkd3J6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4OTkyODYsImV4cCI6MjA3ODQ3NTI4Nn0.VTidNxv_f1Nwztn3fOblewoJOlYn6ddCbhkpg0aRbbc'
 );
 
 // ------------------ GET ALL PRODUCTS ------------------
